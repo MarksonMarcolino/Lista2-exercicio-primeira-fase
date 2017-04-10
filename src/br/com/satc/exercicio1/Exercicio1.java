@@ -3,7 +3,7 @@ package br.com.satc.exercicio1;
 
 import java.util.Scanner;
 
-public class Main {
+public class Exercicio1 {
 
     /**
      * @param args the command line arguments
