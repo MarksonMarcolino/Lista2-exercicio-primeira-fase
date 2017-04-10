@@ -1,21 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package br.com.satc.exercicio1;
 
+import java.util.Scanner;
 /**
  *
- * @author Markson
+ * @author Vicius Milanez
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Scanner entrada = new Scanner(System.in);
+        System.out.println("Diga-me ate que numero.");
+        int n = entrada.nextInt();
+        for (int i=0; i<=n; i++ ){
+            System.out.println(i+" ");
+        }
+        
     }
     
 }
