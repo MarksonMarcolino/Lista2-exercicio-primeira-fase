@@ -6,10 +6,13 @@ public class Exercicio8 {
 
     public static void main(String[] args) {
      Scanner input = new Scanner(System.in);
-        int c = 0;
-        int f = 0;
+        float C;
         for (int i = 50; i < 150; i++) {
-            C = 9/5 (F − 32);
+            
+            C =(float) ((1.8*i)+32);
+            
+            System.out.println("Graus em Fahrenheit: "+ i +" Graus centígrados: "+ C);
+                      
             
         }
 
