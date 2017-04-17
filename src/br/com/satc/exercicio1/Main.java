@@ -1,21 +1,24 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ 1. Faça um algoritmo que imprima todos os números inteiros de 1 a N (fornecido pelo usuário)
  */
 package br.com.satc.exercicio1;
 
-/**
- *
- * @author Markson
- */
+import java.util.Scanner;
+
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+      
+        Scanner net = new Scanner (System.in);
+        
+        System.out.println("Digite a Quantidade de numeros que Deseja ver na Tela : ");
+        int n = net.nextInt();
+        
+        for(int i = 1 ; i <= n ; i++){
+            
+            System.out.print(" "+ i + " " );
+        }
     }
     
 }
