@@ -17,7 +17,7 @@ public class Exercicio4 {
          for (int i = 0; i <= 20; i++) {
          double poleg;
          poleg = (2.54*i);
-         System.out.println(i+ " centímetros é " + poleg);
+         System.out.println(i+ " centímetros é " + poleg +" Polegadas");
                      
          }
          
