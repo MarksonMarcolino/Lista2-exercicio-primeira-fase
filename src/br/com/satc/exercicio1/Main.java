@@ -5,6 +5,8 @@
  */
 package br.com.satc.exercicio1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Markson
@@ -15,7 +17,18 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Insira um numero");
+        int n = input.nextInt();
+        for (int i = 1; i <= n; i++) {
+
+            System.out.println(i);
+        }
+        
+
+        }
+
     }
-    
-}
+
+
